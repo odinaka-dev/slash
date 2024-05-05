@@ -1,0 +1,360 @@
+/* the desktop view of the webpage */
+* {
+    text-decoration: none;
+    list-style-type: none;
+}
+body {
+    font-family: "Inter", sans-serif;
+    /* open sans */
+    /* font-family: "Open Sans", sans-serif; */
+}
+header.slash-navigation {
+    padding: 15px 20px;
+    z-index: 1;
+}
+#header-nav-mobile {
+    display: none;
+}
+nav {
+    max-width: 1330px;
+    margin: 0px auto;
+}
+.slash-lists li {
+    margin: 0px 20px;
+}
+.slash-lists a {
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+.slash-lists a:hover {
+    color: #380436;
+    border-bottom: 2px solid #360335;
+    transition: .5s all ease;
+}
+.search-cart {
+    margin-right: 40px;
+}
+.search-cart div {
+    margin-right: 25px;
+}
+.search-cart input {
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #000;
+    border-radius: 0px;
+    width: 250px;
+    padding: 5px 2px;
+    padding-right: 10px;
+    outline: none;
+}
+/* the banner styles */
+.slash-sub-banner {
+    max-width: 1200px;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+.slash-banner-mobile {
+    display: none;
+}
+.text-slash p {
+    font-size: 14px;
+    color: #ffffffd8;
+}
+.sellers-sect p {
+    color: #808080;
+}
+.image-slashes {
+    cursor: pointer;
+}
+/* skash lists banner */
+.banner-lists {
+    padding: 20px 0px;
+    margin-top: 50px;
+}
+.slashes-lists {
+    cursor: pointer;
+    padding: 50px 10px;
+}
+.slashLists-all, .sellers-sect {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.first-lists{
+    background: #00000088 url(https://i.pinimg.com/236x/7e/b9/c8/7eb9c8a768da32078ad45061ec47a615.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    text-align: center;
+}
+.second-lists {
+    background: #00000088 url(https://i.pinimg.com/236x/a9/7a/df/a97adfbc78a4c633ca734b6223d8713b.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    text-align: center; 
+}
+.third-lists {
+    background: #00000088 url(https://i.pinimg.com/236x/13/28/ac/1328acd1eec9ca367167b584acdbef47.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    text-align: center; 
+}
+.fourth-lists {
+    background: #00000088 url(https://i.pinimg.com/236x/4b/0f/05/4b0f05c0ba6b93f5e1318043a4806e71.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    text-align: center; 
+}
+.fifth-lists {
+    background: #00000088 url(https://i.pinimg.com/236x/2b/b8/74/2bb8740c529c06d7bc866c75af3c2ac0.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    text-align: center; 
+}
+.sixth-lists {
+    background: #00000088 url(https://i.pinimg.com/236x/b5/37/c1/b537c190c71e8ebce88ba966a55347af.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    text-align: center; 
+}
+
+.slashes-lists:hover {
+    transform: scale(1.1);
+}
+.sellers-third-mobile {
+    display: none;
+}
+
+/* button */
+.sellers-sect img {
+    width: 400px;
+}
+.seller-btn {
+    font-size: 12px;
+}
+.banner-lists-mobile {
+    display: none;
+}
+.services-main, .about-contact {
+    background-color: rgba(241, 241, 241, 0.795);
+}
+.services-main img {
+    border: 0px;
+    border-radius: 50%;
+    align-self: center;
+}
+.services-main p {
+    font-size: 15px;
+    color: #808080;
+    line-height: 1.6;
+    padding-top: 10px;
+}
+/* the contact and about us page */
+.about-contact-slash {
+    max-width: 1300px;
+    margin: 0px auto;
+}
+.contact-slash #name, .contact-slash #email {
+    width: 400px;
+}
+.first-area {
+    display: block;
+}
+.second-area {
+    display: none;
+}
+/* the footer of the desktop view */
+.mainFooter {
+    color: white;
+    padding: 40px 0px;
+}
+.footer-main {
+    max-width: 1300px;
+    margin: 0px auto;
+}
+.footer-info p {
+    line-height: 1.6;
+    font-size: 14px;
+}
+.footer-sub {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 100px;
+}
+.footer-sub li {
+    margin-bottom: 10px;
+}
+.footer-image img {
+    width: 40px;
+    padding-bottom: 10px;
+}
+.footer-six img {
+    margin-right: 16px;
+}
+
+/* the tablet view of the webpage */
+
+/* the mobile view of the webpage */
+
+@media screen and (max-width: 450px) {
+    /* navigation responsive designs */
+    header.slash-navigation {
+        display: none;
+    }
+    #header-nav-mobile {
+        position: fixed;
+        width: 100%;
+        background-color: #fff;
+        display: block;
+    }
+    .nav-lists-slash {
+        display: block;
+        transform: translate(-100%);
+        transition: 0.5s;
+        background-color: #0000006b;
+        margin-right: 50px;
+        border-color: #0000006b;
+    }
+    .nav-lists-slash ul li {
+        padding: 15px 0px;
+        font-size: 15px;
+        transition: padding 0.8s;
+    }
+    .show-lists {
+        transform: translate(0%);
+        transition: 0.5s;
+    }
+    /* the mobile navigation template styles */
+    /* welcome page banner responsive designs */
+    .slash-banner {
+        display: none;
+        padding-top: 30px;
+    }
+    .slash-banner-mobile {
+        display: block;
+    }
+    .slash-sub-banner-mobile {
+        max-width: 370px;
+        margin: 0px auto;
+        margin-top: 50px;
+    }
+    /* first and second banner responsive design */
+    .banner-lists {
+        display: none;
+    }
+    .banner-lists-mobile {
+        display: block;
+    }
+    /* service and about page responsive designs */
+    /* service */
+    .market-one {
+        margin-bottom: 50px;
+    }
+
+   /* about and contact us */
+   .about-contact-slash {
+    max-width: 390px;
+    margin: 0px auto;
+    }
+    .contact-slash #name, .contact-slash #email {
+        width: 320px;
+    }
+    .first-area {
+        display: none;
+    }
+    .second-area {
+        display: block;
+    }
+    .contact-slash input {
+        margin: 20px 0px;
+    }
+    #email {
+        margin-bottom: 15px;
+    }
+    /* footer responsive designs */
+    .mainFooter {
+        color: white;
+        padding: 40px 0px;
+    }
+    .footer-main {
+        max-width: 390px;
+        margin: 0px auto;
+    }
+    .footer-info p {
+        line-height: 1.6;
+        font-size: 14px;
+    }
+    .footer-sub {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border-bottom: 1px solid #fff;
+        padding-bottom: 60px;
+    }
+    .footer-one{
+        grid-column: span 2;
+    }
+    .footer-sub li {
+        margin-bottom: 10px;
+    }
+    .footer-image img {
+        width: 30px;
+        padding-bottom: 10px;
+    }
+    .footer-six img {
+        margin-right: 16px;
+    }
+
+}
+/* medium mobile screen width */
+@media screen and (max-width:375px){
+    /* the welcome page banner */
+    .slash-sub-banner-mobile {
+        max-width: 330px;
+        margin: 0px auto;
+        margin-top: 50px;
+    }
+
+    /* the aabout us and service section */
+    .about-contact-slash, .service-sub {
+        max-width: 340px;
+        margin: 0px auto;
+        }
+        .contact-slash #name, .contact-slash #email {
+            width: 325px;
+        }
+        .slashLists-all {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+
+        /* the footer styles section at 375px */
+        .footer-main {
+            max-width: 320px;
+            margin: 0px auto;
+        }
+        .footer-bottom  {
+            font-size: 13px;
+        }
+        .footer-six img {
+            margin-right: 10px;
+        }
+}
+/* the mini mobile width */
+/* @media screen and (max-width: 360px) {
+    
+} */
+
+
+
+

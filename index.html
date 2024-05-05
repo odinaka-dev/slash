@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slash-landing-page</title>
+    <!-- the favicon of the webpage -->
+    <link rel="icon" href="./asset/logo2.png">
+    <!-- the css fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- open sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">    
+    <!-- tailwind css post -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- the css styling link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/54f688b031.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- landing page -->
+    <header class="slash-navigation shadow-md">
+        <nav class="navigate-slash flex flex-row justify-between items-center">
+            <!-- logo -->
+            <div class="flex flex-row items-center">
+                <div class="slash-logo">
+                    <label class="logo flex flex-row items-center">
+                        <img class="w-10 h-10" src="./asset/logo2.png" alt=""> 
+                        <a class="mx-2 text-xl capitalize font-bold" href="">Slash</a></label>
+                </div>
+                <!-- the nav lists -->
+                <div class="navigation-lists ml-16">
+                    <ul class="slash-lists flex flex-row justify-between items-center">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Marketplace</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact-us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- the search and notifications page -->
+            <div class="search-cart flex flex-row items-center">
+                <!-- input tag for the navigation bar -->
+                <div class="slash-input">
+                    <input type="search" name="search" id="search-main" placeholder="search your products">
+                </div>
+                <!-- the slash navigation bell -->
+                <div class="slash-btn">
+                    <button>
+                        <!-- the harmburger icon -->
+                        <i class="fa-solid fa-bell" style="color: #8f008a;"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- the mobile navigation template -->
+    <header id="header-nav-mobile" class="shadow-xl">
+        <nav class="relative flex flex-row justify-between items-center py-2">
+        <!-- the logo of the navigation -->
+        <div id="logo-mobile" class="ml-3 ">
+            <label for="" class="logo flex flex-row items-center">
+                <img src="./asset/logo2.png" alt="" style="width: 40px;">
+                <a class="mx-2 text-xl capitalize font-bold" href="">Slash</a></label></label>
+        </div>
+        <div class=" mr-3">
+            <img class="slash-menu cursor-pointer" src="./asset/icon-hamburger.svg" alt="">
+        </div>
+        <div class="nav-lists-slash absolute top-14 border-0 border-t-2" style="width: 100%; height: 100vh;">
+            <ul class="bg-white flex flex-col justify-between text-center" style="width: 80%;">
+                <li class="font-bold"><a href="">Home</a></li>
+                <li class="font-bold"><a href="">Marketplace</a></li>
+                <li class="font-bold"><a href="">Services</a></li>
+                <li class="font-bold"><a href="">About</a></li>
+                <li class="font-bold"><a href="">Contact-us</a></li>
+            </ul>
+        </div>
+        <!-- the menu bar of the navigation lists -->
+        </nav>
+    </header>
+    <!-- the banner of slash landing page -->
+    <section class="slash-banner bg-pink-900 py-10">
+        <div class="slash-sub-banner grid grid-cols-2 items-center mt-24 mb-16">
+            <div class="text-slash">
+                <!-- the header -->
+                <h1 class="text-lg md:text-2xl font-bold text-white uppercase">
+
+                   welcome to the number one  marketplace for discounted products at <a href="" class="text-pink-200 capitalize font-bold">Slash.com</a>
+                </h1>
+                <p class="py-5 text-white" style="line-height: 1.6;">
+                    Here at slash we are all about giving the best experience of buying and selling. We provide e-commerce solutions
+                    affordable prices, amazing offers, tempting discounts and above all great services for your money. Don't know how 
+                    to start that won't be difficult, our web offers easy buy easy delivery system between buyers and sellers.
+                </p>
+                <!-- contents -->
+                <!-- sign up button -->
+                <div >
+                    <button class="signup-button uppercase text-sm font-bold text-pink-700 bg-white py-2 px-8 border border-0 rounded shadow-sm
+                    hover:text-white hover:border-2 hover:border-white hover:bg-pink-800 duration-300">
+                        <a href="">Sign up</a>
+                    </button>
+                </div>
+            </div>
+            <!-- the image -->
+            <div class="image-slashes ml-5">
+                <img src="https://img.freepik.com/free-vector/outdoor-farm-market-stalls-wooden-fair-booths-kiosks-with-awning-farmer-food-fish-meat-butcher-fishery-products-vegetables-isolated-wood-vendor-counters-cartoon-vector-illustration_107791-10596.jpg?t=st=1714696743~exp=1714700343~hmac=5420e9d3e57f091440d3fe504fa1449554f0c6719e7fd0972b13ea61684f617a&w=1060" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- the mobile banner -->
+    <section class="slash-banner-mobile bg-pink-900 py-3">
+        <div class="slash-sub-banner-mobile grid grid-cols-1 items-center mt-10 mb-10">
+            <!-- the image banner -->
+            <div class="image-slashes ml-0 mt-10">
+                <img src="https://img.freepik.com/free-vector/outdoor-farm-market-stalls-wooden-fair-booths-kiosks-with-awning-farmer-food-fish-meat-butcher-fishery-products-vegetables-isolated-wood-vendor-counters-cartoon-vector-illustration_107791-10596.jpg?t=st=1714696743~exp=1714700343~hmac=5420e9d3e57f091440d3fe504fa1449554f0c6719e7fd0972b13ea61684f617a&w=1060" alt="">
+            </div>
+
+            <!-- the text banner -->
+            <div class="text-slash mt-5">
+                <!-- the header -->
+                <h1 class="text-xl md:text-2xl font-bold text-white uppercase">
+
+                   welcome to the number one  marketplace for discounted products at <a href="" class="text-pink-200 capitalize font-bold">Slash.com</a>
+                </h1>
+                <p class="py-5 text-white font-thin" style="line-height: 1.6;">
+                    Here at slash we are all about giving the best experience of buying and selling. We provide e-commerce solutions
+                    affordable prices, amazing offers, tempting discounts and above all great services for your money. Don't know how 
+                    to start that won't be difficult, our web offers easy buy easy delivery system between buyers and sellers.
+                </p>
+                <!-- contents -->
+                <!-- sign up button -->
+                <div >
+                    <button class="signup-button uppercase text-sm font-bold text-pink-700 bg-white py-2 px-8 border border-0 rounded shadow-sm
+                    hover:text-white hover:border-2 hover:border-white hover:bg-pink-800 duration-300">
+                        <a href="">Sign up</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- shopping lists and carousel effects -->
+        <section class="banner-lists">
+            <!-- the welcome section slide of the e-commerce webpage -->
+            <section class="sellers-sect mt-24 px-10">
+                <!-- the sellers section -->
+                <div class="sellers-all grid grid-cols-2 items-center">
+                    <!-- the text -->
+                    <div class="sellers-text">
+                        <h1 class="text-xl uppercase text-black font-bold pt-10">
+                            You can Open Your Business store and earn through slash.</h1>
+                        <p class="text-sm py-5" style="line-height: 1.6;">
+                            Asides from buying products from slash, We also offer the avenue 
+                            for users or business minded users to sell products by opening and 
+                            owning an online store on slash platform. A very easy process without 
+                            any difficulty on your account set up.
+                        </p>
+                        <button class="seller-btn uppercase text-sm text-white bg-pink-700 py-2 px-8 border border-0 rounded shadow-sm
+                        hover:bg-pink-600 duration-300">
+                            <a href="">create store</a>
+                        </button>                     
+                    </div>
+                    <!-- the image grid -->
+                    <div class="">
+                        <!-- the first mock up image -->
+                        <div class="sellers-1-image">
+                            <img src="https://img.freepik.com/free-vector/consumer-demand-abstract-concept-illustration-customer-decision-buy-product-service-consumer-satisfaction-retail-marketing-market-price-consumption-society_335657-170.jpg?t=st=1714766615~exp=1714770215~hmac=56e6dd9d6d93b1e61e8de4438d52e3ef8c32112a23060e7f0f0bca8f9f8b91e3&w=740" alt="">
+                        </div>
+
+                    </div>
+                    <!-- the third grid-->
+                    <div class="sellers-third" style="width: 100%;">
+                        <!-- the second mock up image -->
+                        <div class="sellers-2-image">
+                            <img src="https://img.freepik.com/free-vector/online-order-abstract-concept-illustration_335657-3878.jpg?t=st=1714766701~exp=1714770301~hmac=29bce68c8cc1c4a161c2d6aba90316faa2ddb071b847e118eaea4b91c76797c3&w=740" alt="">
+                        </div>
+                    </div>
+                    <!-- the fourth grid -->
+                    <!-- the buyers section -->
+                    <div class="sellers-fourth">
+                        <!-- the buyers part -->
+                        <h1 class="text-xl uppercase text-black font-bold pt-0 mt-28">
+                            Get whatever you want as a Buyer.</h1>
+                        <p class="text-sm py-5" style="line-height: 1.6;">
+                            Asides from Selling you can also purchase from slash, things like SPorts kits,
+                            automobile products, electrical gadgets, grocery shopping, health based products
+                            and lots more. Discount prices from different stores are also available to all buyers,
+                            plus slash offers an amazing buyer and sellers relationship. 
+                        </p>
+                        <button class="seller-btn uppercase text-sm text-white bg-pink-700 py-2 px-8 border border-0 rounded shadow-sm
+                        hover:bg-pink-600 duration-300">
+                            <a href="">Purchase from us</a>
+                        </button> 
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- mobile view -->
+        <section class="banner-lists-mobile">
+            <!-- the welcome section slide of the e-commerce webpage -->
+            <section class="sellers-sect mt-24 px-4">
+                <!-- the sellers section -->
+                <div class="sellers-all grid grid-cols-1 items-center">
+                    <!-- the text -->
+                    <div class="sellers-text">
+                        <h1 class="text-xl uppercase text-black font-bold pt-10">
+                            You can Open Your Business store and earn through slash.</h1>
+                        <p class="text-sm py-5" style="line-height: 1.6;">
+                            Asides from buying products from slash, We also offer the avenue 
+                            for users or business minded users to sell products by opening and 
+                            owning an online store on slash platform. A very easy process without 
+                            any difficulty on your account set up.
+                        </p>
+                        <button class="seller-btn uppercase text-sm text-white bg-pink-700 py-2 px-8 border border-0 rounded shadow-sm
+                        hover:bg-pink-600 duration-300">
+                            <a href="">create store</a>
+                        </button>                     
+                    </div>
+                    <!-- the image grid -->
+                    <div class="">
+                        <!-- the first mock up image -->
+                        <div class="sellers-1-image">
+                            <img src="https://img.freepik.com/free-vector/consumer-demand-abstract-concept-illustration-customer-decision-buy-product-service-consumer-satisfaction-retail-marketing-market-price-consumption-society_335657-170.jpg?t=st=1714766615~exp=1714770215~hmac=56e6dd9d6d93b1e61e8de4438d52e3ef8c32112a23060e7f0f0bca8f9f8b91e3&w=740" alt="">
+                        </div>
+
+                    </div>
+                    <!-- the third grid-->
+                    <!-- the buyers section -->
+                    <div class="sellers-fourth">
+                        <!-- the buyers part -->
+                        <h1 class="text-xl uppercase text-black font-bold pt-0 mt-28">
+                            Get whatever you want as a Buyer.</h1>
+                        <p class="text-sm py-5" style="line-height: 1.6;">
+                            Asides from Selling you can also purchase from slash, things like SPorts kits,
+                            automobile products, electrical gadgets, grocery shopping, health based products
+                            and lots more. Discount prices from different stores are also available to all buyers,
+                            plus slash offers an amazing buyer and sellers relationship. 
+                        </p>
+                        <button class="seller-btn uppercase text-sm text-white bg-pink-700 py-2 px-8 border border-0 rounded shadow-sm
+                        hover:bg-pink-600 duration-300">
+                            <a href="">Purchase from us</a>
+                        </button> 
+                    </div>
+                    <!-- the fourth grid -->
+
+                    <div class="sellers-third" style="width: 100%;">
+                        <!-- the second mock up image -->
+                        <div class="sellers-2-image">
+                            <img src="https://img.freepik.com/free-vector/online-order-abstract-concept-illustration_335657-3878.jpg?t=st=1714766701~exp=1714770301~hmac=29bce68c8cc1c4a161c2d6aba90316faa2ddb071b847e118eaea4b91c76797c3&w=740" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- services about slash.com -->
+        <section class="services-main py-10 mt-4">
+                <h1 class="text-2xl uppercase text-black text-center font-bold pb-10">
+                    Our services</h1>
+            <div class="service-sub max-w-sm md:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2">
+                    <div class="market-one market-text mx-3">
+                        <h3 class="text-black text-xl font-bold uppercase py-2 mt-0 ">
+                                Marketplace</h3>
+                            <p style="font-size: 13px;">
+                                Here at slash.com our marketplace is basically a market place where buyers and sellers meet.
+                                Every products bought are affordable with amazing price tags and great customer services from the 
+                                sellers. Our market place is an environment where buyers, sellers and even business minded people 
+                                coexist with an amazing business friendly relationship that further ensures good closure on selling products.
+                                We also offer amazing discounts and help our users become online vendors, owning their own stores where buying 
+                                and selling can be made possible.
+                            </p>
+                            <!-- button to the market place -->
+                            <button class="marketplace-btn bg-pink-700 border-0 mt-5 py-2 px-7 rounded shadow-md hover:bg-pink-600 duration-300">
+                                <a class="text-white"
+                                   href="">Join our marketplace</a></button>
+                    </div>
+                <div class="slashLists-all grid grid-cols-2 md:grid-cols-3 pt-0 mt-0 items-center gap-3">
+                    <div class="slashes-lists first-lists capitalize font-bold text-white  border rounded shadow-lg hover:shadow-xl duration-300"> mens fashion </div>
+                    <div class="slashes-lists second-lists capitalize font-bold text-white  border rounded shadow-lg hover:shadow-xl duration-300"> women fashion</div>
+                    <div class="slashes-lists third-lists capitalize font-bold text-white  border rounded shadow-lg hover:shadow-xl duration-300"> grocery store </div>
+                    <div class="slashes-lists fourth-lists capitalize font-bold text-white  border rounded shadow-lg hover:shadow-xl duration-300"> Electronics</div>
+                    <div class="slashes-lists fifth-lists capitalize font-bold text-white  border rounded shadow-lg hover:shadow-xl duration-300"> Automobile </div>
+                    <div class="slashes-lists sixth-lists capitalize font-bold text-white  border rounded shadow-lg hover:shadow-xl duration-300"> sports</div>
+            </div>
+        </section>
+
+        <!-- about page of slash using chatgpt -->
+        <section class="about-contact py-10">
+            <!-- grid-systems about section and contact section -->
+            <div class="about-contact-slash grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-16">
+                <!-- the about page -->
+                <div class="about-slash">
+                    <h3 class="text-black text-2xl font-bold mx-3">
+                        About Us</h3>
+                        <!-- the content -->
+                        <p class="py-2 mx-3" style="color: #808080; line-height: 1.6; font-size: 15px;">
+                            Slash is an online marketplace platform that makes business relationship between buyers and sellers possible and very 
+                        much affordable. We as a team are all about building a seamless environment where market based business transactions are safe,
+                        free, affordable, and above all secure. We also have a vendor program where users can own their own stores and sell various products 
+                        online and also buy products from other vendors. The major Goal on slash plaatforms is that there are no limitations as all users can earn
+                        while purchasing different products online. Sign up, for further informations you can contact us via our contact forms on our home page here at
+                        slash.</p>
+                </div>
+                <!-- the contact us section -->
+                <div class="contact-slash">
+                    <!-- contact us page -->
+                    <form action="">
+                        <!-- username -->
+                        <div class="username my-4"> 
+                            <input type="text" name="name" id="name" class=" py-2 px-5" 
+                            placeholder="username">
+                            <label for="name" class="text-white py-3 px-5 bg-pink-800 rounded shadow-lg"
+                            style="font-size: 13px;">
+                                Username</label>
+                        </div>
+                        <!-- password -->
+                        <div class="password my-4"> 
+                            <input type="email" name="email" id="email" class="email py-2 px-5" 
+                            placeholder="email">
+                            <label for="email" id="email" class="text-white py-3 px-9 bg-pink-800 rounded shadow-lg"
+                            style="font-size: 13px;">
+                                Email</label>
+                        </div>
+                        <!-- message -->
+                        <div class="message my-4"> 
+                           <textarea name="" id="" cols="55" rows="5" placeholder="Message us" class="first-area px-5"></textarea> <br>
+                           <textarea name="" id="" cols="30" rows="5" placeholder="Message us" class="second-area px-5"></textarea>
+                            <input type="submit" value="Contact Us" class="inline-block text-white bg-pink-800 py-2 px-7 rounded shadow-lg">
+                        </div>
+                    </form>
+                </div>               
+            </div>
+
+        </section>
+
+
+        <!-- footer of the landing page begins from here -->
+        <footer class="mainFooter font-thin bg-pink-900">
+            <div class="footer-main">
+                <div class="footer-image flex flex-row items-center">
+                    <img src="./asset/logo2.png" alt="">
+                    <p class="text-xl uppercase font-bold ml-2">slash</p>
+                </div>
+                <div class="footer-sub grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-5">
+                    <div class="footer-one">
+                        <div class="footer-info">
+                            <!-- additional information -->
+                            <p class="text-white">
+                                Slash we are all about making customers and vendors happy, we create 
+                                a very friendly business environ that further appreciates buying and selling
+                                in the best possible way. Join in today and start purchasing or selling your amazing
+                                products, it's always affordable at slash. 
+                            </p>
+                            <!-- gmail -->
+                            <!-- contact-no -->
+                        </div>
+                    </div>
+                    <div class="footer-two ml-2 md:ml-5">
+                        <ol>
+                            <li class="hover:font-bold duration-300"><a href="">Home</a></li>
+                            <li class="hover:font-bold duration-300"><a href="">marketplace</a></li>
+                            <li class="hover:font-bold duration-300"><a href="">services</a></li>
+                            <li class="hover:font-bold duration-300"><a href="">About us</a></li>
+                            <li class="hover:font-bold duration-300"><a href="">Contact-us</a></li>
+                        </ol>
+                    </div>
+                    <div class="footer-three">
+                        <li class="hover:font-bold duration-300"><a href="">Become a seller</a></li>
+                        <li class="hover:font-bold duration-300"><a href="">Create your store</a></li>
+                        <li class="hover:font-bold duration-300"><a href="">Discounts prices</a></li>
+                        <li class="hover:font-bold duration-300"><a href="">Jobs</a></li>
+                    </div>
+                    <div class="footer-four">
+                        <li class="hover:font-bold duration-300"><a href="">Meet the developers</a></li>
+                        <li class="hover:font-bold duration-300"><a href="">connect with us</a></li>
+                        <li class="hover:font-bold duration-300"><a href="">Terms and conditions</a></li>
+                        <li class="hover:font-bold duration-300"><a href="">Privacy and policy</a></li>
+                    </div>
+                </div> 
+                        <!-- the footer page - a date object copyrights function and the social media pages icons -->   
+                <div class="footer-bottom flex flex-row justify-between items-center pt-5">
+                    <div class="footer-five">&copy copyrights <a class="text-white copy-year" href=""></a> slash.com</div>
+                    <div class="footer-six flex flex-row items-center">
+                        <img src="./asset/socials/icon-facebook.svg" alt="">
+                        <img src="./asset/socials/icon-instagram.svg" alt="">
+                        <img src="./asset/socials/icon-twitter.svg" alt="">
+                        <img src="./asset/socials/icon-youtube.svg" alt="">
+                    </div>
+                </div>        
+                </div>
+        </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
